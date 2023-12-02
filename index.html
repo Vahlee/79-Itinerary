@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itinerary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@700&family=Cormorant+Garamond:wght@300&family=Gabarito&family=Lobster&family=Nosifer&family=Open+Sans:wght@300&family=Playpen+Sans:wght@200&family=Roboto+Slab:wght@300&family=Roboto:wght@500&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <style>
+        img {
+            height:200px;
+            width:200px;
+        }
+        .container {
+            display: inline-grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap:5px;
+            text-align: center;
+        }
+        p{
+            font-size: 1.5rem;
+            font-family: 'Roboto Slab', serif;
+
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-family: 'Playpen Sans', cursive;
+            color:#F05941;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Breakfast</h1>
+    <div class="container">
+          <div><p>Agbado</p><img src="./corn.png" alt="agbado" /></div>
+          <div><p>Agege Bread</p><img src="./bread.png" alt="bread" /></div>
+          <div><img src="./egg.png" alt="egg" /><p>Egg</p></div>
+          <div><img src="./spag.png" alt="spag" /><p>Spag</p></div>
+    </div>
+</body>
+</html>
